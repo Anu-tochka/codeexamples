@@ -30,7 +30,7 @@
 				e.preventDefault();
 				let reqq = [];
 				workers.each(function() {
-					let persID = $(this).attr('id');//.text();
+					let persID = $(this).attr('id');
 					let simple = {};
 					let hours = 0;
 					let ho = '';
